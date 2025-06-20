@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# Spark logs, temp
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Kafka logs (nếu chạy local)
+kafka-logs/
+zookeeper/
+
+# Airflow
+airflow.db
+airflow-webserver.pid
+logs/
+*.sqlite
+
+# LocalStack
+localstack-data/
+
+# Docker
+*.pid
+*.env
+.env.*
+docker-compose.override.yml
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+logs/
+spark_jars/*.jar
+

@@ -18,7 +18,7 @@ with DAG(
     'youtube_kafka_etl',
     default_args=default_args,
     description='Streaming ETL pipeline for YouTube trending data with Kafka',
-    schedule_interval='@hourly',
+    schedule_interval='@daily',
     start_date=datetime(2025, 6, 15),
     catchup=False
 ) as dag:

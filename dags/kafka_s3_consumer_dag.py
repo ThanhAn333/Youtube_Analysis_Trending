@@ -19,7 +19,7 @@ with DAG(
     'kafka_s3_consumer_etl',
     default_args=default_args,
     description='ETL pipeline for consuming Kafka and saving to S3 after producer',
-    schedule_interval='@hourly',  # Chạy mỗi giờ, sau producer
+    schedule_interval='@daily',  # Chạy mỗi giờ, sau producer
     start_date=datetime(2025, 6, 16),
     catchup=False,
     tags=['youtube', 'kafka', 's3']

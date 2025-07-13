@@ -4,7 +4,7 @@
 This project implements an ETL (Extract, Transform, Load) pipeline to analyze trending YouTube videos using modern big data technologies. The pipeline collects data from the YouTube API, processes it with Apache Kafka, Apache Airflow, Apache Spark, and stores it in a LocalStack S3 bucket. The goal is to extract insights on video trends across regions (VN, US, KR) and visualize them using Jupyter Notebook.
 
 ## Pipeline
-![Data Pipeline Architecture](./Pipeline.png)
+![Data Pipeline Architecture](./pipeline2.png)
 
 ## Features
 - **Data Extraction**: Fetches trending videos using the YouTube Data API v3.
